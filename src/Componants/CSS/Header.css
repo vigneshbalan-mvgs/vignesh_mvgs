@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin: 20;
+}
+.nav-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav-title {
+  color: rgb(43, 36, 36);
+  font-size: 32px;
+  font-weight: 600;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+  color: rgb(85, 85, 85);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  cursor: pointer;
+}
+
+.icon {
+  size: 2rem;
+}
