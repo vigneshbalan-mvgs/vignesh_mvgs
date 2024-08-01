@@ -21,7 +21,8 @@ html {
 }
 
 .left-container {
-  position: absolute;
+  position: relative;
+  color: lightblue;
 }
 
 .placeholder {
@@ -31,7 +32,7 @@ html {
   border-radius: 10px;
 }
 .ph1 {
-  margin-top: 40px;
+  margin-top: 290px;
 }
 
 .right-container {

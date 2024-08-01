@@ -10,8 +10,8 @@ const Home = () => {
         <div className="placeholder ph2"> </div>
         <div className="placeholder ph3"> </div>
       </div>
-      <div className="right-container">
         <div className="circle" />
+      <div className="right-container">
         <Link
           to="mailto:vigneshbalanmvgs2003@gmail.com"
           className="link mail"
