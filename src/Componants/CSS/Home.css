@@ -16,14 +16,12 @@ html {
   align-items: center;
   background-color: #2c2542;
   height: 100vh;
-  padding: 20px;
+  padding: 60px;
   color: white;
 }
 
 .left-container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+  position: absolute;
 }
 
 .placeholder {
@@ -31,6 +29,9 @@ html {
   height: 40px;
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 10px;
+}
+.ph1 {
+  margin-top: 40px;
 }
 
 .right-container {
