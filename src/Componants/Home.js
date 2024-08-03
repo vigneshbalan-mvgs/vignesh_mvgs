@@ -1,16 +1,19 @@
 import React from "react";
 import "./CSS/Home.css";
+import "./CSS/HomeAni.css";
 import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <div className="home">
       <div className="left-container">
-        <div className="placeholder ph1"> Home</div>
-        <div className="placeholder ph2"> Projects </div>
-        <div className="placeholder ph3"> Contact</div>
+        <div className="link"> Home  </div>
+        <div className="link"> Projects </div>
+        <div className="link"> Contact</div>
       </div>
-        <div className="circle" />
+      <div className="circle">
+        <div className="profile"></div>
+      </div>
       <div className="right-container">
         <Link
           to="mailto:vigneshbalanmvgs2003@gmail.com"
